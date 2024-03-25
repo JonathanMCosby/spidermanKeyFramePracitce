@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    background-image:url('images/upsideDownBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.milesImg img{
+    top: -200px;
+    left: 250px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    display: block;
+    animation: bounce 4s;
+    animation-iteration-count: infinite;
+    transition: ease;
+    text-shadow: 5px 5px 5px black;
+}
+@keyframes bounce{
+    0%{ transform: translateY(0px)}
+    50%{ transform: translateY(100px)}
+}
